@@ -9,12 +9,45 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-p{
+.p-header{
     text-align: center;
     color: white;
     font-size: 20px;
 }
-h6{
+.h2-header{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+.images{
+    width: 100%;
+    height: auto;
+}
+.lien{
+    text-align: center;
+    color: rgb(10, 10, 10);
     font-size: 20px;
-    color: white;
+}
+p{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+
+}
+.bio{
+    padding: 40px;
+}
+/* #portraits{
+    padding: 50px;
+} */
+
+
+@media{
+
 }
