@@ -1,5 +1,6 @@
 
 header{
+    padding: 10px;
     background-color: rgb(33, 33, 66);
     height: 200px;
 }
@@ -28,7 +29,19 @@ h1{
     color: rgb(10, 10, 10);
     font-size: 20px;
 }
-.bio{
+.deux{
+    padding: 40px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.quatre{
+    padding: 40px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.six{
     padding: 40px;
     text-align: center;
     color: black;
@@ -60,22 +73,142 @@ h1{
 } */
 
 
-@media (max-width: 800px){
-    .bio{
-        padding: 10px;
+@media(max-width: 768px){
+    .deux{
+        padding: 8px;
         text-align: center;
         color: black;
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .quatre{
+        padding: 8px;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+    }
+    .six{
+        padding: 8px;
+        text-align: center;
+        color: black;
+        font-size: 10px;
     }
     .lien{
         text-align: center;
         color: rgb(10, 10, 10);
+        font-size: 15px;
+    }
+    div .trois{
+        order: quatre;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    h1{
         font-size: 20px;
     }
-    /* .bio-reverse{
-        flex-direction: column-reverse;
+    .p-header{
+        text-align: center;
+        color: white;
+        font-size: 15px;
     }
-    .images-reverse{
-        flex-direction: column-reverse;
+    .h2-header{
+        color:white;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer{
+        background-color: rgb(39, 39, 41);
+        height: 200px;
+        padding: 20px;
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    .p-header{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    header{
+        padding: 10px;
+    }
+
+  
+    /* #portraits{
+         
+    }
+    div.trois{
+        order: 4;
+    }
+    div.quatre{
+        order: 3;
     } */
-}
+    /* #portraits{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows */
+
+} 
+
+@media(max-width: 500px){
+    .deux{
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+    }
+    .quatre{
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+    }
+    .six{
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+    }
+    .lien{
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    div .trois{
+        order: quatre;
+    }
+    h2{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 9px;
+    } 
+    header{
+        padding: 8px;
+    }
+    footer{
+        background-color: rgb(39, 39, 41);
+        height: 200px;
+        padding: 10px;
+    }
+    h1{
+        font-size: 20px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    .p-header{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+  
+
+} 
